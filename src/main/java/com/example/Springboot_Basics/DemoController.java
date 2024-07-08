@@ -1,5 +1,7 @@
 package com.example.Springboot_Basics;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -8,6 +10,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class DemoController {
+    public static Logger LOG = LoggerFactory.getLogger(DemoController.class); // identifier for log
+
     @GetMapping("/test")
     public String test(){
         return "<html><body bgcolor = cyan> test route </body></html>";
@@ -15,6 +19,12 @@ public class DemoController {
 
     @GetMapping("/test2")
     public Student test2(){
+        LOG.info("Info log for /test2");
+        LOG.trace("Trace log for /test2");
+        LOG.warn("Warn log for /test2");
+        LOG.debug("Debug log for /test2");
+        LOG.error("Error log for /test2");
+
         Student student = new Student(12, "abhay");
 
         return student;
