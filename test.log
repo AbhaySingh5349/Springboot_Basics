@@ -1813,3 +1813,138 @@ Consider renaming one of the beans or enabling overriding by setting spring.main
 2024-07-09T17:27:10.557+05:30  INFO 15152 --- [Springboot_Basics] [http-nio-8080-exec-7] c.e.S.J.M.repository.PersonRepository    : sqlConnection Result Set for get person invoked
 2024-07-09T17:32:22.045+05:30  INFO 15152 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-07-09T17:32:22.052+05:30  INFO 15152 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-09T17:51:21.472+05:30  INFO 1548 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : Starting SpringbootBasicsApplication using Java 18.0.1.1 with PID 1548 (C:\Users\ACER\IdeaProjects\Springboot_Basics\target\classes started by ACER in C:\Users\ACER\IdeaProjects\Springboot_Basics)
+2024-07-09T17:51:21.476+05:30  INFO 1548 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-07-09T17:51:22.685+05:30  INFO 1548 --- [Springboot_Basics] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-09T17:51:22.699+05:30  INFO 1548 --- [Springboot_Basics] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-09T17:51:22.699+05:30  INFO 1548 --- [Springboot_Basics] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09T17:51:22.752+05:30  INFO 1548 --- [Springboot_Basics] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-09T17:51:22.752+05:30  INFO 1548 --- [Springboot_Basics] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1216 ms
+2024-07-09T17:51:23.657+05:30  INFO 1548 --- [Springboot_Basics] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-09T17:51:23.667+05:30  INFO 1548 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : Started SpringbootBasicsApplication in 2.697 seconds (process running for 3.176)
+2024-07-09T17:51:51.840+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09T17:51:51.841+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-09T17:51:51.843+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-09T17:51:51.976+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] c.e.S.J.S.r.PersonRepositorySpringJdbc   : springJdbcConnection statement to create person invoked
+2024-07-09T17:51:51.981+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-09T17:51:52.026+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@724de59a
+2024-07-09T17:51:52.030+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-09T17:51:56.286+05:30  INFO 1548 --- [Springboot_Basics] [http-nio-8080-exec-3] c.e.S.J.S.r.PersonRepositorySpringJdbc   : springJdbcConnection Result Set for get person invoked
+2024-07-09T19:05:14.619+05:30  INFO 1548 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-09T19:05:14.669+05:30  INFO 1548 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-09T19:09:51.134+05:30  INFO 4436 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : Starting SpringbootBasicsApplication using Java 18.0.1.1 with PID 4436 (C:\Users\ACER\IdeaProjects\Springboot_Basics\target\classes started by ACER in C:\Users\ACER\IdeaProjects\Springboot_Basics)
+2024-07-09T19:09:51.137+05:30  INFO 4436 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-07-09T19:09:52.566+05:30  INFO 4436 --- [Springboot_Basics] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-09T19:09:52.582+05:30  INFO 4436 --- [Springboot_Basics] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-09T19:09:52.583+05:30  INFO 4436 --- [Springboot_Basics] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09T19:09:52.668+05:30  INFO 4436 --- [Springboot_Basics] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-09T19:09:52.670+05:30  INFO 4436 --- [Springboot_Basics] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1467 ms
+2024-07-09T19:09:53.717+05:30  INFO 4436 --- [Springboot_Basics] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-09T19:09:53.726+05:30  INFO 4436 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : Started SpringbootBasicsApplication in 3.124 seconds (process running for 3.66)
+2024-07-09T19:10:16.259+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09T19:10:16.260+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-09T19:10:16.264+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-09T19:10:16.633+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] c.e.S.J.S.r.PersonRepositorySpringJdbc   : springJdbcConnection statement to create person invoked
+2024-07-09T19:10:16.651+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-09T19:10:16.767+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d78cd77
+2024-07-09T19:10:16.775+05:30  INFO 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-09T19:10:16.917+05:30 ERROR 4436 --- [Springboot_Basics] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [insert into person (id, name) values (?, ?)]; SQL state [HY000]; error code [1366]; Incorrect integer value: 'kp' for column 'id' at row 1] with root cause
+
+java.sql.SQLException: Incorrect integer value: 'kp' for column 'id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:975) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:658) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:970) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:991) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:337) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at com.example.Springboot_Basics.JdbcConnectivity.SpringJdbc.repository.PersonRepositorySpringJdbc.createPerson(PersonRepositorySpringJdbc.java:51) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.10.jar:6.1.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.10.jar:6.1.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.10.jar:6.1.10]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.10.jar:6.1.10]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.10.jar:6.1.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.10.jar:6.1.10]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.10.jar:6.1.10]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.10.jar:6.1.10]
+	at com.example.Springboot_Basics.JdbcConnectivity.SpringJdbc.repository.PersonRepositorySpringJdbc$$SpringCGLIB$$0.createPerson(<generated>) ~[classes/:na]
+	at com.example.Springboot_Basics.JdbcConnectivity.SpringJdbc.controller.PersonControllerSpringJdbc.createPerson(PersonControllerSpringJdbc.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-07-09T19:11:57.058+05:30  INFO 4436 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-09T19:11:57.067+05:30  INFO 4436 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-09T19:12:05.660+05:30  INFO 280 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : Starting SpringbootBasicsApplication using Java 18.0.1.1 with PID 280 (C:\Users\ACER\IdeaProjects\Springboot_Basics\target\classes started by ACER in C:\Users\ACER\IdeaProjects\Springboot_Basics)
+2024-07-09T19:12:05.663+05:30  INFO 280 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-07-09T19:12:06.957+05:30  INFO 280 --- [Springboot_Basics] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-09T19:12:06.970+05:30  INFO 280 --- [Springboot_Basics] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-09T19:12:06.971+05:30  INFO 280 --- [Springboot_Basics] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-09T19:12:07.035+05:30  INFO 280 --- [Springboot_Basics] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-09T19:12:07.035+05:30  INFO 280 --- [Springboot_Basics] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1316 ms
+2024-07-09T19:12:08.040+05:30  INFO 280 --- [Springboot_Basics] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-09T19:12:08.050+05:30  INFO 280 --- [Springboot_Basics] [main] c.e.S.SpringbootBasicsApplication        : Started SpringbootBasicsApplication in 2.884 seconds (process running for 3.276)
+2024-07-09T19:12:45.391+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09T19:12:45.394+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-09T19:12:45.399+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-09T19:12:45.752+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] c.e.S.J.S.r.PersonRepositorySpringJdbc   : springJdbcConnection statement to create person invoked
+2024-07-09T19:12:45.768+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-09T19:12:45.874+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a8688b8
+2024-07-09T19:12:45.879+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-09T19:12:55.656+05:30  INFO 280 --- [Springboot_Basics] [http-nio-8080-exec-4] c.e.S.J.S.r.PersonRepositorySpringJdbc   : springJdbcConnection Result Set for get person invoked
+2024-07-09T19:15:57.492+05:30  INFO 280 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-09T19:15:57.500+05:30  INFO 280 --- [Springboot_Basics] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

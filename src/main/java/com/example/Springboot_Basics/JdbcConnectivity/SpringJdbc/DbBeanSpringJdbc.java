@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
+/*
 @Configuration
 @Slf4j
 public class DbBeanSpringJdbc {
@@ -20,3 +21,4 @@ public class DbBeanSpringJdbc {
                 .build();
     }
 }
+*/
