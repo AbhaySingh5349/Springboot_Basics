@@ -1,6 +1,7 @@
 package com.example.Springboot_Basics.JpaHibernate.controller;
 
 import com.example.Springboot_Basics.JdbcConnectivity.MySqlConnector.model.Person;
+import com.example.Springboot_Basics.JpaHibernate.exception.CustomException;
 import com.example.Springboot_Basics.JpaHibernate.service.JpaPersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -18,7 +19,7 @@ public class PersonControllerJpaHibernate {
     }
 
     @PostMapping("/personJpa")
-    public int createPerson(@RequestBody Person person) throws IllegalAccessException {
+    public int createPerson(@RequestBody Person person) throws IllegalAccessException, CustomException {
         if(person.getId() == null || person.getName() == null){
             throw new IllegalAccessException("Mandatory parameters are null");
         }
